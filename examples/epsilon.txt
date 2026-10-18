@@ -1,0 +1,3 @@
+# Cero o más letras a, con el inicial anulable en un lado derecho.
+S -> A S | e
+A -> a

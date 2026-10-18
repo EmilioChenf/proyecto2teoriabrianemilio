@@ -1,0 +1,5 @@
+# B no genera terminales; C no es alcanzable.
+S -> A | B
+A -> a
+B -> B B
+C -> c
