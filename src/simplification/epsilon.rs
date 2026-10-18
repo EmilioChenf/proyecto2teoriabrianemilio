@@ -72,5 +72,6 @@ pub fn eliminate_epsilon(grammar: &Grammar) -> Result<Grammar> {
             .productions
             .insert(Production::new(&result.start, vec![]));
     }
+    check_size(result.productions.len())?;
     Ok(result)
 }
