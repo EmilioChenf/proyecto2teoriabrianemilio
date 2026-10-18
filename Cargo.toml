@@ -1,0 +1,15 @@
+[package]
+name = "proyecto2-cyk"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Simplificación de CFG, conversión a CNF y análisis CYK"
+publish = false
+
+[lib]
+name = "proyecto2_cyk"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cyk"
+path = "src/main.rs"
