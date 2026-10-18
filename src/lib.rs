@@ -2,4 +2,5 @@
 pub mod error;
 pub mod grammar;
 pub mod parser;
+pub mod simplification;
 pub mod tokenizer;
