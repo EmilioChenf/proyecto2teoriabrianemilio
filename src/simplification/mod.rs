@@ -1,6 +1,8 @@
 //! Simplificación por puntos fijos y cierres, preservando el lenguaje.
 mod epsilon;
 pub use epsilon::{eliminate_epsilon, nullable_variables};
+mod unit;
+pub use unit::{eliminate_unit, unit_closure};
 
 use crate::error::{Error, Result};
 
