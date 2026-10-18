@@ -1,4 +1,5 @@
 //! Transformaciones generales de gramáticas y reconocimiento mediante CYK.
+pub mod cli;
 pub mod cnf;
 pub mod cyk;
 pub mod error;
